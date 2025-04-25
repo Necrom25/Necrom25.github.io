@@ -27,3 +27,13 @@ img{
     border-radius: 20px;
     overflow: hidden;
 }
+
+/* estilos de las cards */
+.card{
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20x rgba(0,0,0,0.1);
+}
